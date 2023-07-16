@@ -181,7 +181,7 @@ body {
     font-weight: 400;
 }
 
-.product_text {
+.product_description {
     color: #9F9F9F;
     font-size: 14px;
     font-weight: 400;
@@ -197,6 +197,10 @@ body {
     background-color: #F8F8F8;
 }
 
+.product_text{
+    padding: 16px 24px;
+}
+
 .sale_product {
     display: flex;
     flex-wrap: wrap;
@@ -208,10 +212,6 @@ body {
 
 .box {
     max-width: 360px;
-}
-
-.product_img {
-    margin-bottom: 25px;
 }
 
 .name {
