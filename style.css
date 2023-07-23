@@ -241,11 +241,172 @@ body {
     padding: 15px 39px;
 }
 
+.product_finish:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
+
 .product_end {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 48px;
+    padding-bottom: 95px;
+}
+
+.info {
+    background-color: #222224;
+    ;
+    display: flex;
+    gap: 30px;
+    padding: 104px 230px;
+    min-height: 341px;
+}
+
+.info_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_img1 {
+    width: 44.989px;
+    height: 31.935px;
+    flex-shrink: 0;
+    margin-bottom: 28.07px;
+
+}
+
+.info_img2 {
+    width: 39.986px;
+    height: 39.924px;
+    flex-shrink: 0;
+    margin-bottom: 19.07px;
+}
+
+.info_img3 {
+    width: 47.023px;
+    height: 34.927px;
+    flex-shrink: 0;
+    margin-bottom: 25.06px;
+}
+
+.info_heading {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.info_text {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-weight: 300;
+}
+
+.connection {
+    min-height: 448px;
+}
+
+.connection_top {
+    height: 448px;
+    background: url(img/Layer\ 41.jpg) no-repeat, rgba(244, 244, 244, 0.70);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 223px;
+    padding-left: 228.29px;
+    padding-right: 230px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review_img {
+    margin-bottom: 30px;
+}
+
+.review_text {
+    color: #222224;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscription {
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription_heading {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 167.2%;
+    /* 40.128px */
+}
+
+.subscription_text {
+    color: #222224;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167.2%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.input {
+    background-color: #E1E1E1;
+    border: 5px solid #E1E1E1;
+    padding: 7px 22px 6px 22px;
+    border-radius: 20px 0px 0px 20px;
+    color: #222224;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subscription_button {
+    background-color: #F16D7F;
+    border: 5px solid #F16D7F;
+    padding: 7px 7px 6px 8px;
+    border-radius: 0px 20px 20px 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #222224;
+    min-height: 79px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_text {
+    color: #FBFBFB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_site {
+    padding: 8px 10px;
+    margin-right: 7px;
+    background-color: #FFF;
+}
+
+.footer_site:hover {
+    background-color: #F16D7F;
 }
 
 
@@ -292,6 +453,17 @@ body {
         gap: 16px;
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .info {
+        flex-wrap: wrap;
+    }
+
+    .connection_top {
+        flex-wrap: wrap;
+        gap: 48px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -360,5 +532,22 @@ body {
         width: 343px;
         height: 111px;
         object-fit: cover;
+    }
+
+    .info {
+        padding: 48px 13px 81px 14px;
+    }
+
+    .review_text {
+        font-size: 18px;
+    }
+
+    .subscription_text {
+        font-size: 14px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        height: 143px;
     }
 }
