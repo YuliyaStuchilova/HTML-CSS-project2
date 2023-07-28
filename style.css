@@ -311,7 +311,7 @@ body {
 
 .connection_top {
     height: 448px;
-    background: url(img/Layer\ 41.jpg) no-repeat, rgba(244, 244, 244, 0.70);
+    background: url(img/Layer_41.jpg) no-repeat, rgba(244, 244, 244, 0.70);
     background-blend-mode: overlay;
     display: flex;
     justify-content: center;
