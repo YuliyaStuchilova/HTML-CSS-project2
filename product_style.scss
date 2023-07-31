@@ -84,8 +84,12 @@ a {
   justify-content: center;
   align-items: center;
   gap: 463px;
-  min-height: 777px;
+  max-height: 777px;
   border: 1px solid #eaeaea;
+
+  &_center {
+    width: 597px;
+  }
 
   &_left {
     padding: 8px;
@@ -188,19 +192,15 @@ a {
     padding: 15px 57px 15px 24px;
     border: 1px solid $colorSelectSite;
     background: #ffffff;
-  }
-
-  &_button_buy:hover {
-    background: #d9d3d3;
-    
-  }
-
-  &_button_text {
     color: #f26376;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  &_button_buy:hover {
+    background: #d9d3d3;
   }
 }
 
@@ -357,5 +357,21 @@ a {
 
   &_site:hover {
     background-color: #f16d7f;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .center_top {
+    padding-left: calc(50% - 370px);
+    padding-right: calc(50% - 370px);
+  }
+
+  .top_img {
+    gap: 104px;
+    height: 624px;
+
+    &_center {
+      width: 466px;
+    }
   }
 }
