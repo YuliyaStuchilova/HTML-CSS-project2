@@ -67,6 +67,11 @@ a {
   font-weight: 700;
 }
 
+.breadcrumbs__link:not(:last-child)::after {
+  content: "/";
+  padding: 0 8px;
+}
+
 .filter-sort {
   height: 132px;
   padding-top: 39px;
@@ -414,4 +419,32 @@ a {
 }
 .footer_site:hover {
   background-color: #f16d7f;
+}
+
+@media screen and (max-width: 1024px) {
+  .center_top {
+    padding-left: calc(50% - 370px);
+    padding-right: calc(50% - 370px);
+  }
+  .sale_product {
+    gap: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .box:last-of-type {
+    display: none;
+  }
+  .pagination {
+    margin-left: 253px;
+    margin-right: 253px;
+  }
+  .info {
+    flex-wrap: wrap;
+  }
+  .connection_top {
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-left: 7px;
+    padding-right: 0px;
+  }
 }/*# sourceMappingURL=catalog.css.map */

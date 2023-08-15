@@ -258,4 +258,29 @@ a {
 }
 .footer_site:hover {
   background-color: #f16d7f;
+}
+
+@media screen and (max-width: 1024px) {
+  .center_top {
+    padding-left: calc(50% - 370px);
+    padding-right: calc(50% - 370px);
+  }
+  .main {
+    gap: 22px;
+  }
+  .main__heading {
+    font-size: 16px;
+  }
+  .main__info-text {
+    font-size: 16px;
+  }
+  .main__li {
+    font-size: 16px;
+  }
+  .connection_top {
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-left: 7px;
+    padding-right: 0px;
+  }
 }/*# sourceMappingURL=registration.css.map */
